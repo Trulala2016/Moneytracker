@@ -9,9 +9,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by User on 04.08.2016.
- */
 public class TransactionAdapter extends ArrayAdapter<Transactions> {
     Context context;
     List<Transactions> transactions;
@@ -35,6 +32,7 @@ public class TransactionAdapter extends ArrayAdapter<Transactions> {
         title.setText(transaction.title);
         sum.setText(transaction.sum + "");
         dt.setText(transaction.date);
+
         return convertView;
     }
 }
