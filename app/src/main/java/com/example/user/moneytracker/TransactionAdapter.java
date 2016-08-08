@@ -32,7 +32,6 @@ public class TransactionAdapter extends ArrayAdapter<Transactions> {
         title.setText(transaction.title);
         sum.setText(transaction.sum + "");
         dt.setText(transaction.date);
-
         return convertView;
     }
 }
