@@ -9,9 +9,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by User on 04.08.2016.
- */
 public class TransactionAdapter extends ArrayAdapter<Transactions> {
     Context context;
     List<Transactions> transactions;
